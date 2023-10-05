@@ -1,0 +1,8 @@
+#root {
+  margin: 0 auto;
+}
+
+.simulator-form {
+  position: absolute;
+  z-index: 999;
+}

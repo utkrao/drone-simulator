@@ -1,0 +1,61 @@
+/* Add these CSS styles to your component's stylesheet */
+
+.pause-play-btn-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30%;
+    position: absolute;
+    bottom: 20px;
+    width: -webkit-fill-available;
+}
+
+.pause-play-btn-conatiner button {
+    background-color: #007bff;
+    /* Blue color, you can change it to match your theme */
+    color: #fff;
+    /* Text color */
+    border: none;
+    border-radius: 50%;
+    /* Makes the button round */
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.pause-play-btn-conatiner button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+input[type="range"] {
+    width: 100%;
+    background-color: #ccc;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    /* Width of the slider thumb */
+    height: 15px;
+    /* Height of the slider thumb */
+    background-color: #007bff;
+    /* Blue color, you can change it to match your theme */
+    border-radius: 50%;
+    /* Makes the thumb round */
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
